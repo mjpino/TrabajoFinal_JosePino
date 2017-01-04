@@ -1,0 +1,91 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i';
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-input-placeholder{
+  color: white !important;
+}
+
+nav {
+	&.barra-navegacion {
+		background-color: white;
+		display: flex;
+		align-items: center;
+		height: 85px;
+		.barra-derecha{
+			.activo{
+				background: #0069ff;
+				border-radius: 3px;
+				a{
+					color: #fff;
+				}
+			}	
+		}	
+		.logo{
+			padding: 8px 15px;
+		}
+	}	
+}
+
+div{
+	&.seccion-dos{
+		padding-top: 80px;
+    	padding-bottom: 80px;
+		background: linear-gradient(180deg,#66a5ff,#0069ff);
+		color: white;
+		h1{
+			font-weight: 300;
+    		line-height: 1.25;
+    		font-size: 40px;
+		}
+		form{
+			margin-top: 30px;
+		}
+		.formulario{
+		    width: 90%;
+    		height: 42px;
+    		background-color: transparent;
+    		margin-bottom: 16px;
+    		border: 1px solid #fff;
+		}
+		.boton{
+			width: 90%;
+			background-color: white;
+			color: #0069ff;
+			font-size: 14px;
+			font-weight: 600;
+			height: 42px;
+		}
+		p{
+			font-size: 12px;
+			color: hsla(0,0%,100%,.8);
+			span{
+				text-decoration: underline;
+				color: white;
+			}
+		}
+		.izquierda{
+			padding-top: 46px;
+		}
+	}
+}
+
+.seccion-tres{
+	h2{
+		font-size: 30px;
+		text-align: center;
+		margin-top: 50px;
+	}
+	img{
+		height: 140px;
+	}
+	.fila-uno{
+		margin-top: 70px;
+	}
+	.fila-dos{
+		margin-top: 70px;
+	}
+}
+    

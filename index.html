@@ -1,0 +1,150 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Trabajo Final Josefina Pino</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/navbar-fixed-top/navbar-fixed-top.css" rel="stylesheet">
+    <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- Mi CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-default navbar-fixed-top barra-navegacion">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="#">
+            <figure>
+              <img src="img/logo.png">
+            </figure>
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Compute</a></li>
+                <li><a href="#">Storage</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Solutions <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#about">Community</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right barra-derecha">
+            <li><a href="#">API</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Log In</a></li>
+            <li class="activo"><a href="#">Sign Up <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<!-- CREATE AN ACCOUNT -->
+    <div class="jumbotron seccion-dos">
+      <div class="container">
+      <!-- Columna izquierda -->
+          <div class="col-md-6 izquierda">
+            <h1>Cloud computing, designed for developers.</h1>
+            <form class="form-signin">
+              <label for="inputEmail" class="sr-only">Email address</label>
+              <input type="email" id="inputEmail" class="form-control formulario" placeholder="Email address" required autofocus>
+              <label for="inputPassword" class="sr-only">Password</label>
+              <input type="password" id="inputPassword" class="form-control formulario" placeholder="Password" required>
+              <button class="btn btn-lg btn-primary btn-block boton" type="submit">Create an Account</button>
+            </form>
+            <p>By signing up, you agree to the <span>Terms of Service.</span></p>
+          </div>
+      <!-- columna derecha -->
+          <div class="col-md-6">
+            <figure>
+              <img src="img/tutorial.png">
+            </figure>
+          </div>
+      </div>
+    </div>
+<!-- FIN CREATE AN ACCOUNT -->
+
+<!-- manage your infrastructure -->
+    <div class="container seccion-tres">
+
+      <h2>Seamlessly manage your infrastructure</h2>
+
+      <div class="row fila-uno">
+        <div class="col-md-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/deploy-in-seconds-a5f58113.svg">
+          <h3>Deploy in seconds</h3>
+          <p>Spin up a Droplet and get root access to a compute instance in only 55 seconds.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/all-ssd-cloud-bb78282d.svg">
+          <h3>SSD performance</h3>
+          <p>The first and only all-SSD cloud. Whether it's our Droplet compute instances or Block Storage, everything runs on SSD.</p>
+       </div>
+        <div class="col-md-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/flexible-api-55da975f.svg">
+          <h3>Simple API</h3>
+          <p>An intuitive API and command line utilities allow you to run large-scale production workloads.</p>
+        </div>
+      </div>
+
+      <div class="row fila-dos">
+        <div class="col-md-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/highly-available-storage-fd7639fc.svg">
+          <h3>Highly available storage</h3>
+          <p>Never run out of space with the ability to attach multiple highly available volumes up to 16TB to a Droplet.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/robust-networking-8130c43e.svg">
+          <h3>Lightning fast network</h3>
+          <p>Each hypervisor has a fault tolerant and redundant 40Gbps network to ensure uptime and throughput.</p>
+       </div>
+        <div class="col-md-4">
+          <img src="https://www.digitalocean.com/assets/media/homepage/team-collaboration-898f387c.svg">
+          <h3>Teams work together</h3>
+          <p>Easily manage your cloud with your team by inviting others and setting access permissions.</p>
+        </div>
+      </div>
+
+    </div>
+<!-- fin manage your infrastructure -->
+
+  </body>
+</html>
